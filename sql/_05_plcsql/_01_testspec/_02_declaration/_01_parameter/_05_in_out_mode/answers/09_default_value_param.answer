@@ -29,15 +29,15 @@ null
 null     
 
 
-a
-b
+'a'
+'b'
 ===================================================
     
 null     
 
 
 c
-b
+'b'
 ===================================================
     
 null     
@@ -66,7 +66,7 @@ null
 
 
 k
-b
+'b'
 ===================================================
     
 null     
@@ -94,7 +94,7 @@ expression
 null     
 
 
- +12345
+' +12345'
 ===================================================
     
 null     
@@ -157,7 +157,7 @@ null
 
 
 a
-1
+'1'
 ===================================================
 0
 
@@ -260,6 +260,23 @@ char default
 
 
 ===================================================
+Error:-493
+Syntax: Precision cannot be specified for argument types and return types ​​of stored procedures and functions. 
+
+===================================================
+Error:-495
+Execute: before ' ; '
+Methods require an object as their target. call char_default() on 'd'
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.char_default' does not exist.
+
+===================================================
+Error:-894
+Stored procedure/function 'dba.char_default' does not exist.
+
+===================================================
 0
 
 ===================================================
@@ -267,26 +284,13 @@ char default
 null     
 
 
-"d"
+11/22/2000
+07:56:17.000 AM 01/23/2000
+01:23:45 AM
+07:28:00 PM 09/30/2024
 ===================================================
-    
-null     
-
-
-"a  "
-===================================================
-0
-
-===================================================
-0
-
-===================================================
-Error:-889
-Stored procedure execute error: com.cubrid.jsp.exception.TypeMismatchException: invalid TIMESTAMP string: 07:28 pm 09-30
-
-===================================================
-Error:-889
-Stored procedure execute error: com.cubrid.jsp.exception.TypeMismatchException: invalid DATETIME string: 12:22:33.000 PM 06/25/2024
+Error:-494
+Semantic: Conversion error in date format. 
 
 ===================================================
 0
