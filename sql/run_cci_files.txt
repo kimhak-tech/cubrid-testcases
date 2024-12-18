@@ -1,0 +1,7 @@
+_13_issues/_24_2h/cases/cbrd_24896.sql
+_23_apricot_qa/_03_i18n/ja_JP/_09_identifiers/cases/_005_user_names.sql
+_23_apricot_qa/_03_i18n/km_KH/_09_identifiers/cases/_005_user_names.sql
+_23_apricot_qa/_03_i18n/tr_TR/_04_case_dev/_09_identifiers/cases/_005_user_names.sql
+_23_apricot_qa/_03_i18n/tr_TR/_09_identifiers/cases/_010_identifiers_show_004.sql
+_23_apricot_qa/_03_i18n/zh_CN/_09_identifiers/cases/_005_user_names.sql
+_24_aprium_qa/_05_non-ASCII/cases/bug_bts_10624.sql
