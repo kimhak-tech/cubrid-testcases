@@ -7,9 +7,11 @@ Case 1: Default parameter with time conversion
 0
 
 ===================================================
-Error:-494
-Semantic: Conversion error in time format. 
+    
+null     
 
+
+12:32:46 PM
 ===================================================
     
 null     
@@ -91,9 +93,11 @@ Case 5: Midnight and noon edge cases
 0
 
 ===================================================
-Error:-494
-Semantic: Conversion error in timestamp format. 
+    
+null     
 
+
+12:00:00.000 PM 01/01/2000
 ===================================================
     
 null     
@@ -115,9 +119,11 @@ Case 6: Edge case with year extremes
 0
 
 ===================================================
-Error:-494
-Semantic: Conversion error in timestamp format. 
+    
+null     
 
+
+12:30:00.000 AM 12/31/0001
 ===================================================
     
 null     
@@ -166,9 +172,11 @@ Case 9: Handling of default timestamp with seconds and AM/PM
 0
 
 ===================================================
-Error:-494
-Semantic: Conversion error in timestamp format. 
+    
+null     
 
+
+07:28:15 PM 09/30
 ===================================================
     
 null     
@@ -184,9 +192,11 @@ Case 10: Extreme values for time
 0
 
 ===================================================
-Error:-494
-Semantic: Conversion error in time format. 
+    
+null     
 
+
+11:59:59 PM
 ===================================================
     
 null     
