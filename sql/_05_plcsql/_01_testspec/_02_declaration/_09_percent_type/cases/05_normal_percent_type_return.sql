@@ -80,7 +80,7 @@ select type_support_return(9223372036854775807  );
 EVALUATE 'T_NUMERIC';
 create or replace function type_support_return( v_NUMERIC   type_support.T_NUMERIC%type       ) return  type_support.T_NUMERIC%type        as Begin   return v_NUMERIC  ;   end;    
 select type_support_return(0.1    );       
-select type_support_return(9876543210987654321098.765432109876543);
+select type_support_return(9876543210987654321098.7654321098765432);
 
 
 EVALUATE 'T_DECIMAL';
